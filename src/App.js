@@ -13,7 +13,7 @@ class App extends React.Component {
 					<Navbar />
 					<Routes basename="/u">
 						<Route exact path="/u" element={<Index />}  />
-						<Route path="/u/Contact" element={<Contact />} />
+						<Route exact path="/u/Contact" element={<Contact />} />
 						
 					</Routes>
 				</BrowserRouter>
