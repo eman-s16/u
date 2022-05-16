@@ -14,4 +14,11 @@ class App extends React.Component {
 					<Routes>
 						<Route exact path="https://eman-s16.github.io/ulta-1/" component={Index}  />
 						<Route path="https://eman-s16.github.io/ulta-1/Contact" component={Contact} />
-					</Rout
+					</Routes>
+				</BrowserRouter>
+			</div>
+		);
+	}
+}
+
+export default App;
