@@ -12,8 +12,8 @@ class App extends React.Component {
 				<BrowserRouter>
 					<Navbar />
 					<Routes>
-						<Route exact path="https://eman-s16.github.io/ulta-1/" component={Index}  />
-						<Route path="https://eman-s16.github.io/ulta-1/Contact" component={Contact} />
+						<Route exact path="https://eman-s16.github.io/u/" component={Index}  />
+						<Route path="https://eman-s16.github.io/u/Contact" component={Contact} />
 					</Routes>
 				</BrowserRouter>
 			</div>
