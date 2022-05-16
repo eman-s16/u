@@ -12,8 +12,8 @@ class App extends React.Component {
 				<BrowserRouter>
 					<Navbar />
 					<Routes>
-						<Route exact path="/" component={Index}  />
-						<Route path="/" component={Contact} />
+						<Route exact path="/*" element={<Index />}  />
+						<Route path="/" element={<Contact/>} />
 					</Routes>
 				</BrowserRouter>
 			</div>
