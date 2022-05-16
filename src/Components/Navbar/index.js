@@ -13,19 +13,19 @@ const Navbar = () => {
                 <Btnicon />
 				<UlList>
 					<ListItem>
-						<LinkCss to="/">Home</LinkCss>
+						<LinkCss to="/*">Home</LinkCss>
 					</ListItem>
 					<ListItem>
-						<Achor href="#">Work</Achor>
+						<Achor href="/#">Work</Achor>
 					</ListItem>
 					<ListItem>
-						<Achor href="#">Portfolio</Achor>
+						<Achor href="/#">Portfolio</Achor>
 					</ListItem>
 					<ListItem>
-						<Achor href="#">Resume</Achor>
+						<Achor href="/#">Resume</Achor>
 					</ListItem>
 					<ListItem>
-						<Achor href="#">About</Achor>
+						<Achor href="/#">About</Achor>
 					</ListItem>
 					<ListItem>
 						<LinkCss to="/Contact">Contact</LinkCss>
